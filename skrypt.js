@@ -21,8 +21,7 @@ function funkcja(){
     var binar = document.getElementById("binar")
     binar.value =""
     for(i=0; i< odp.length; i++){
-        binar.value+= odp[i].charCodeAt(0).toString(2);
+        binar.value+= odp[i].charCodeAt(0).toString(2) + " ";
     }
 
 }
-console.log("Hi!")
